@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Guitar Mobile App</string>
+    <string name="unit_1">Unit 1: Major Chords</string>
+    <string name="unit_2">Unit 2: Minor Chords </string>
+    <string name="unit_2_Dm">D minor chord lesson</string>
+    <string name="unit_2_Am">A minor chord lesson</string>
+    <string name="unit_2_Em">E minor chord lesson</string>
+    <string name="unit_2_mReview">"Minor chords review "</string>
+    <string name="unit_1_Dmaj">D major chord lesson</string>
+    <string name="unit_1_Amaj">A major chord lesson</string>
+    <string name="unit_1_Emaj">E major chord lesson</string>
+    <string name="unit_1_majReview">Major chords review</string>
+    <string name="icon">Icon</string>
+</resources>

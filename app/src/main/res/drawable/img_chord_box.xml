@@ -1,0 +1,13 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:width="100dp"
+    android:height="150dp"
+    android:viewportWidth="100"
+    android:viewportHeight="150">
+    <path
+        android:name="path"
+        android:pathData="M 1 1 L 98 1 L 98 148 L 1 148 L 1 1 Z M 6 6 L 6 33 L 20 33 L 20 6 L 6 6 Z M 24 6 L 24 33 L 39 33 L 39 6 L 24 6 Z M 42 6 L 42 33 L 58 33 L 58 6 L 42 6 Z M 60 6 L 60 33 L 77 33 L 77 6 L 60 6 Z M 79 6 L 79 33 L 95 33 L 95 6 L 79 6 Z M 6 35 L 6 61 L 20 61 L 20 35 L 6 35 Z M 24 35 L 24 61 L 39 61 L 39 35 L 24 35 Z M 42 35 L 42 61 L 58 61 L 58 35 L 42 35 Z M 60 35 L 60 61 L 77 61 L 77 35 L 60 35 Z M 79 35 L 79 61 L 95 61 L 95 35 L 79 35 Z M 6 63 L 6 89 L 20 89 L 20 63 L 6 63 Z M 24 63 L 24 89 L 39 89 L 39 63 L 24 63 Z M 42 63 L 42 89 L 58 89 L 58 63 L 42 63 Z M 60 63 L 60 89 L 77 89 L 77 63 L 60 63 Z M 79 63 L 79 89 L 95 89 L 95 63 L 79 63 Z M 6 92 L 6 118 L 20 118 L 20 92 L 6 92 Z M 24 92 L 24 118 L 39 118 L 39 92 L 24 92 Z M 42 92 L 42 118 L 58 118 L 58 92 L 42 92 Z M 60 92 L 60 118 L 77 118 L 77 92 L 60 92 Z M 79 92 L 79 118 L 95 118 L 95 92 L 79 92 Z M 6 120 L 6 146 L 20 146 L 20 120 L 6 120 Z M 24 120 L 24 146 L 39 146 L 39 120 L 24 120 Z M 42 120 L 42 146 L 58 146 L 58 120 L 42 120 Z M 60 120 L 60 146 L 77 146 L 77 120 L 60 120 Z M 79 120 L 79 146 L 95 146 L 95 120 L 79 120 Z"
+        android:fillColor="#000000"
+        android:strokeWidth="1"/>
+</vector>

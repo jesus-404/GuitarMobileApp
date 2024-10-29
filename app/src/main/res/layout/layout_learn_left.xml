@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/learn_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_primary"
+    android:paddingHorizontal="25dp"
+    android:paddingBottom="30dp">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginVertical="10dp"
+        android:background="@color/color_secondary" />
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="0.5dp"
+        android:layout_marginHorizontal="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/learn_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit 0: "
+            android:textColor="@color/color_primary_dark"
+            android:fontFamily="@font/montserrat_bold"
+            android:background="@color/color_primary"
+            android:paddingStart="10dp" />
+
+        <TextView
+            android:id="@+id/learn_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Error! Unavailable"
+            android:textColor="@color/color_primary_dark"
+            android:fontFamily="@font/montserrat_medium"
+            android:background="@color/color_primary"
+            android:paddingEnd="10dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/lesson_button1"
+        android:contentDescription="lesson 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/oval1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/shape_oval"
+            android:layout_marginTop="5dp">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/oval2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/shape_oval">
+        </ImageView>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/icon_single_note">
+        </ImageView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/lesson_button2"
+        android:contentDescription="lesson 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lesson_button1"
+        android:layout_alignEnd="@id/lesson_button1"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="35dp">
+
+        <ImageView
+            android:id="@+id/oval1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/shape_oval"
+            android:layout_marginTop="5dp">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/oval2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/shape_oval">
+        </ImageView>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/icon_single_note">
+
+        </ImageView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/lesson_button3"
+        android:contentDescription="lesson 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lesson_button2"
+        android:layout_alignEnd="@id/lesson_button2"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="35dp">
+
+        <ImageView
+            android:id="@+id/oval1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/shape_oval"
+            android:layout_marginTop="5dp">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/oval2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/shape_oval">
+        </ImageView>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/icon_single_note">
+
+        </ImageView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/lesson_button4"
+        android:contentDescription="lesson 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lesson_button3"
+        android:layout_alignStart="@id/lesson_button3"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp">
+
+        <ImageView
+            android:id="@+id/oval1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/shape_oval"
+            android:layout_marginTop="5dp">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/oval2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/shape_oval">
+        </ImageView>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:src="@drawable/icon_star">
+
+        </ImageView>
+    </FrameLayout>
+</RelativeLayout>
