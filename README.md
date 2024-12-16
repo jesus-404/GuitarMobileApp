@@ -1,7 +1,7 @@
 # Guitar Mobile Application
 ## Project Report
 **What:**
-Using Android Studio, I created the classic Wordle game with my own twist!
+Using Android Studio, I created a simplistic guitar application to learn from.
 
 **How:**
 This game comprises three main screens: the home screen, the practice screen, and the profile screen, each with fragments and views. Each view has been designed to be modular and flexible.
